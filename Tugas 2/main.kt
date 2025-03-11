@@ -89,7 +89,7 @@ fun main() {
                 }
             }
             4 -> {
-                print("ID Pasien yang akan dihapus: ")
+                print("ID Pasien yang ingin dihapus: ")
                 val id = readLine()?.toIntOrNull()
                 if (id != null) catatanMedis.hapus(id) else println("ID tidak ada")
             }
